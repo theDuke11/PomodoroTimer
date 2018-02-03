@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Pomodoro</string>
+    <string name="firstpage_name">Pomodoro</string>
+    <string name="go_work">Work</string>
+    <string name="dev_stage"></string>
+
+    <string name="choose">Choose:</string>
+    <string name="text_25">Work for 25 minutes, rest for 5! Best for short bursts of focus and prolonged productivity.</string>
+    <string name="text_35">Work for 35 minutes, rest for 10! Best for medium length tasks and increasing stamina.</string>
+    <string name="text_45">Work for 45 minutes, rest for 15! Not for the faint of heart! Best for deep learning and hardening the focus.</string>
+    <string name="text_custom">Custom</string>
+
+    <string name="equip_text">Equip</string>
+    <string name="sun_tzu_quote">\'Move swift as the Wind and closely formed as the Wood.\nAttack like the Fire and be still as the Mountain.\'</string>
+    <string name="armory">My Armory</string>
+    <string name="edit_work">Work</string>
+    <string name="edit_break">Break</string>
+
+    <string name="timer">00:00</string>
+    <string name="timerMs">.0</string>
+    <string name="start">Start</string>
+    <string name="stop">Pause</string>
+    <string name="reset">Reset</string>
+    <string name="breakk">Take a Break</string>
+    <string name="skip">skip</string>
+
+    <string name="support">Support me:</string>
+    <string name="bitcoinA">Bitcoin address</string>
+    <string name="b_address">1FHHeznvqstbWXxGrzWYjRd7G1GoAPRk2T</string>
+    <string name="litecoinA">Litecoin address</string>
+    <string name="l_address">LXEwzRDdmmsFaGqfcZmVLqZgybtQZ4i7Fw</string>
+    <string name="ethereumA">Ethereum address</string>
+    <string name="e_address">0xb36aca09e69fd9080fbbc3d07fb1e0132f973ad2</string>
+    <string name="patron">Become a patreon!</string>
+    <string name="p_address">www.patreon.com/theduke_radun</string>
+</resources>

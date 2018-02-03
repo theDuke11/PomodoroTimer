@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#08080d">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/app_samurai"/>
+    <TextView
+        android:id="@+id/ArmoryText"
+        android:text="@string/armory"
+        android:textSize="35sp"
+        android:textColor="#582222"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:paddingBottom="40dp"/>
+    <LinearLayout
+        android:layout_below="@id/ArmoryText"
+        android:weightSum="6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/edit_work"
+            android:hint="@string/edit_work"
+            android:layout_weight="1"
+            android:ems="3"
+            android:inputType="number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_weight="2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/edit_break"
+            android:hint="@string/edit_break"
+            android:layout_weight="1"
+            android:ems="3"
+            android:inputType="number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/equip_button"
+            android:onClick="clickEquip"
+            android:text="@string/equip_text"
+            android:textColor="#FFFFFF"
+            android:background="#e9560a11"
+            android:layout_gravity="center"
+            android:layout_marginTop="1dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/quote_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sun_tzu_quote"
+        android:layout_alignParentBottom="true"
+        android:textColor="#aeaeae"
+        android:textSize="11sp"
+        android:gravity="center"
+        android:textStyle="italic"
+        android:layout_marginBottom="20dp"/>
+</RelativeLayout>
